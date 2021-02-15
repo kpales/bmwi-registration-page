@@ -1,29 +1,29 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Orca affairs theme is custom made theme , based on underscores framework
 
-### What is this repository for? ###
+### Orca-Affairs theme summary ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Custom theme , developed from underscores starter theme
+* Styling is made with Sass
+* Custom required plugin php files with required plugins for our page
 
-### How do I get set up? ###
+### Structure ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Sass folder for changing .sass code. Sass is automatically compiled to css through gulp
+* Assets folder has all compiled code in css and js.min
+* Imported bootstrap 4 (Assets/bootstrap). JS and CSS
+* Imported fontAwesome 5 (Assets/fonts/FontAwesome) and compiled in assets/css/fontawesome.min.css
+* Ready to use fonts BundesSans bold and regular ( assets/fonts/BundesSans)
+* Custom Javascript is written in assets/JS/custom.js and is compiled to assets/JS/all.min.js
 
-### Contribution guidelines ###
+### START ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* clone the repository to wordpress/wp-content/themes
+* enter the folder and run npm install
+* Change gulpconfig.json -> proxy to localhost/[name_of_the_folder]/ (ex. localhost/orca-affairs/)
+* Run gulp and code
 
-### Who do I talk to? ###
+### Help with the theme ? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Aleš
