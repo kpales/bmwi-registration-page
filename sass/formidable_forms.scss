@@ -1,0 +1,44 @@
+
+//Formidable forms modifications
+// Aleš
+
+#frm_form_4_container{
+  --font:BundessansRegular;
+  .frm_form_field{
+    h1{
+      color:#000000;
+      font-size: 16px;
+      font-weight: 900;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      line-height: 40px;
+      text-align: left;
+    }
+  }
+  .vertical_radio{
+    .frm_primary_label{
+    display: none;
+    }
+  }
+  .frm_html_container{
+    color: black;
+    text-align: center;
+
+  }
+  .frm_submit{
+    text-align: center;
+    .frm_final_submit{
+      width: 150px;
+      text-align: center;
+      background-color:#0987AD;
+      &:hover,&:visited{
+        background: #0987AD;
+        border-color: #0987AD;
+        color:white;
+        transition: 0.5s;
+      }
+    }
+
+  }
+
+}

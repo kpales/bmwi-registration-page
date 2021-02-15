@@ -1,0 +1,121 @@
+@import "footer"; //import footer styling
+@import "header"; //import header styling
+@import "formidable_forms"; //import formidable forms styling
+@font-face {
+  font-family: BundessansRegular;
+  src: url("../fonts/BundesSans/BundesSans-Regular.otf") format("opentype");
+}
+
+
+body{
+  background-color:#ffffff;
+  font-family:BundessansRegular !important;
+  color:#000000;
+}
+
+#site-navigation{
+  padding: 19px;
+  background-color: #007aa2;
+  border: 1px solid #0987AD;
+  border-radius: 10px;
+  li{
+    cursor:pointer;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    &:hover{
+      text-decoration: none;
+      background-color: #ADDE63;
+      transition: 0.5s;
+
+    }
+    a{
+      @include flexbox();
+      color:#fff;
+      &:hover{
+        text-decoration: none;
+        color:#fff;
+      }
+    }
+  }
+  #primary-menu{
+    @include flexbox();
+    @include flex-direction(column);
+
+    .nav-menu{
+      @include flexbox();
+      @include flex-direction(column);
+      li>a{
+        color: #0082A3;
+      }
+    }
+
+    .current_page_item{
+      background-color: #ADDE63;
+      a{
+        color:#fff !important;
+      }
+    }
+  }
+  .menu-toggle {
+    display: none;
+  }
+}
+#primary{
+  .site-main{
+    article{
+      .entry-title{
+        font-weight: 900;
+        color:blue;
+      }
+      .entry-content{
+        a{
+          color:#0987AD;
+
+        }
+      }
+    }
+
+  }
+}
+
+//Impressum page
+.impressum{
+  color:#000000;
+  h6{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+  p{
+    line-height: 24px;
+  }
+  a{
+   text-decoration: underline;
+    &:hover{
+      color:#0987AD;
+    }
+  }
+}
+//datenschutz page
+#datenschutz{
+  line-height: 20px;
+  .title{
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  .title-table{
+    font-weight: 900;
+  }
+}
+
+
+
+
+
+
+
+
+
+
