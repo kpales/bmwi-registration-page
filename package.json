@@ -1,35 +1,30 @@
 {
-  "name": "Orca starter microsite",
+  "name": "orca-affairs",
   "version": "1.0.0",
-  "description": "This is a custom wordpress theme, developed for microsites and registration pages",
-  "author": "Aleš Petrovački",
-  "license": "GPL-2.0-or-later",
-  "keywords": [
-    "WordPress",
-    "Theme",
-    "Custom",
-    "Framework"
-  ],
-  "homepage": "https://bitbucket.org/ludaja/starter_m/src/master/",
+  "description": "Orca Affairs website modules",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/ludaja/starter_m/src/master/"
+    "url": "git+https://alespetrovacki@bitbucket.org/orca_affairs/orca-affairs.git"
   },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Aleš Petrovački",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/orca_affairs/orca-affairs#readme",
   "devDependencies": {
-    "@wordpress/scripts": "^12.1.0",
-    "dir-archiver": "^1.1.1",
+    "@babel/core": "^7.12.16",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "node-sass": "^5.0.0"
-  },
-  "dependencies": {
-    "browser-sync": "^2.26.13"
+    "gulp-uglify": "^3.0.2"
   }
 }

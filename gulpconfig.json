@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "http://localhost/registration-page/",
+    "proxy": "http://localhost/orca-affairs/",
     "port": 1234,
 	"ui": {
 		"port": 1235
