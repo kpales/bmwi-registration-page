@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Orca_microsite
+ * @package Orca_Affairs
  */
 
 ?>
@@ -22,12 +22,32 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div class="container">
+<div id="page" class="site">
 
-	<div class="row">
-        <div class="col-12 d-flex header-logo justify-content-between align-items-center">
-            <img src="<?php the_field('left_logo' , 'options'); ?>" alt="">
-            <img src="<?php  the_field('right_logo','options');?>" alt="">
+	<div id="wrapper-header" class="site-header d-flex flex-row">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <div class="logo">
+                        <?php
+                        the_custom_logo();
+                        ?>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="d-flex flex-row flex-md-column align-items-end">
+                        <nav id="site-navigation" class="main-navigation">
+                            <?php
+                            wp_nav_menu(
+                                array(
+                                    'theme_location' => 'menu-1',
+                                    'menu_id'        => 'primary-menu',
+                                )
+                            );
+                            ?>
+                        </nav><!-- #site-navigation -->
+                    </div>
+                </div>
+            </div>
         </div>
-	</div><!-- end row -->
-</div>
+	</div><!-- #wrapper-header -->
