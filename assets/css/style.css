@@ -1,23 +1,15 @@
-.site-footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
+.site-footer .footer-menu .menu {
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .site-footer hr {
-    width: 100%; }
-  .site-footer img {
-    width: 25%;
-    height: auto; }
+  padding: 0;
+  margin: 50px 0 0 0; }
+  .site-footer .footer-menu .menu li {
+    list-style: none; }
+    .site-footer .footer-menu .menu li:first-child {
+      margin-right: 20px; }
+    .site-footer .footer-menu .menu li a {
+      color: #000000; }
+      .site-footer .footer-menu .menu li a:hover {
+        color: #000000; }
 
 #wrapper-footer {
   padding: 0;
@@ -172,20 +164,11 @@
     font-size: 30px;
     margin-top: 20px; }
 
-.header-logo {
-  padding: 20px;
+#wrapper-header {
   margin-bottom: 20px; }
-  .header-logo img {
-    width: 25%;
-    height: auto; }
-
-#wrapper-header .logo img {
-  width: 740px;
-  height: 260px; }
-  @media (max-width: 720px) {
-    #wrapper-header .logo img {
-      width: 400px;
-      height: 150px; } }
+  #wrapper-header .header-logo img {
+    width: 100%;
+    /*      height: 440px;*/ }
 
 #header-wrapper {
   color: #545454;
@@ -553,36 +536,88 @@
   border: 2px grey solid !important;
   border-radius: 25px !important; }
 
-#frm_form_4_container {
-  --font:BundessansRegular; }
-  #frm_form_4_container .frm_form_field h1 {
+#frm_form_2_container #frm_field_6_container label, #frm_form_2_container #frm_field_6_container select, #frm_form_2_container #frm_field_6_container input, #frm_form_2_container #frm_field_8_container label, #frm_form_2_container #frm_field_8_container select, #frm_form_2_container #frm_field_8_container input, #frm_form_2_container #frm_field_14_container label, #frm_form_2_container #frm_field_14_container select, #frm_form_2_container #frm_field_14_container input, #frm_form_2_container #frm_field_11_container label, #frm_form_2_container #frm_field_11_container select, #frm_form_2_container #frm_field_11_container input, #frm_form_2_container #frm_field_15_container label, #frm_form_2_container #frm_field_15_container select, #frm_form_2_container #frm_field_15_container input {
+  background-color: #CCDBE4;
+  margin-bottom: 10px; }
+
+#frm_form_2_container #frm_field_6_container label, #frm_form_2_container #frm_field_8_container label, #frm_form_2_container #frm_field_14_container label, #frm_form_2_container #frm_field_11_container label, #frm_form_2_container #frm_field_15_container label {
+  margin-right: -5px; }
+
+#frm_form_2_container #frm_field_6_container input, #frm_form_2_container #frm_field_8_container input, #frm_form_2_container #frm_field_14_container input, #frm_form_2_container #frm_field_11_container input, #frm_form_2_container #frm_field_15_container input {
+  color: black; }
+
+#frm_form_2_container #frm_field_17_container {
+  margin-top: 0; }
+
+#frm_form_2_container .frm_form_field {
+  margin-bottom: 0;
+  display: flex; }
+  #frm_form_2_container .frm_form_field select, #frm_form_2_container .frm_form_field input {
+    background-color: transparent;
+    outline: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    width: 50%; }
+  #frm_form_2_container .frm_form_field #field_x5gxl_label {
+    width: 100% !important; }
+  #frm_form_2_container .frm_form_field label {
     color: #000000;
     font-size: 16px;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 40px;
-    text-align: left; }
-  #frm_form_4_container .vertical_radio .frm_primary_label {
-    display: none; }
-  #frm_form_4_container .frm_html_container {
-    color: black;
-    text-align: center; }
-  #frm_form_4_container .frm_submit {
-    text-align: center; }
-    #frm_form_4_container .frm_submit .frm_final_submit {
-      width: 150px;
-      text-align: center;
-      background-color: #0987AD; }
-      #frm_form_4_container .frm_submit .frm_final_submit:hover, #frm_form_4_container .frm_submit .frm_final_submit:visited {
-        background: #0987AD;
-        border-color: #0987AD;
-        color: white;
-        transition: 0.5s; }
+    padding-left: 10px;
+    text-align: left;
+    width: 240px; }
+
+#frm_form_2_container .frm_html_container {
+  margin-bottom: 0;
+  margin-top: 50px; }
+  #frm_form_2_container .frm_html_container h1 {
+    color: #004B76;
+    font-weight: 900; }
+
+#frm_form_2_container .frm_first {
+  margin-bottom: 0;
+  /*margin-top: 50px;*/ }
+
+#frm_form_2_container .frm_form_field .frm_description {
+  color: #000000;
+  margin-top: 5px; }
+
+#frm_form_2_container .frm_form_field #field_x5gxl {
+  display: none; }
+
+#frm_form_2_container .frm_form_field #field_x5gxl_label a {
+  color: white;
+  text-decoration: underline; }
+  #frm_form_2_container .frm_form_field #field_x5gxl_label a:hover {
+    color: white; }
+
+#frm_form_2_container .frm_form_field #field_87z5i_label {
+  display: none; }
+
+#frm_form_2_container #frm_field_13_container {
+  margin-bottom: 0; }
+
+#frm_form_2_container .frm_submit {
+  text-align: left; }
+  #frm_form_2_container .frm_submit .frm_final_submit {
+    width: 150px;
+    text-align: center;
+    background-color: #355D77;
+    border-color: #355D77;
+    color: white;
+    box-shadow: none; }
+    #frm_form_2_container .frm_submit .frm_final_submit:hover, #frm_form_2_container .frm_submit .frm_final_submit:visited {
+      background: #355D77;
+      border-color: #355D77;
+      color: white;
+      transition: 0.5s; }
 
 @font-face {
   font-family: BundessansRegular;
   src: url("../fonts/BundesSans/BundesSans-Regular.otf") format("opentype"); }
+
+.container {
+  max-width: 1000px !important; }
 
 body {
   background-color: #ffffff;
@@ -646,12 +681,8 @@ body {
   #site-navigation .menu-toggle {
     display: none; }
 
-#primary .site-main article .entry-title {
-  font-weight: 900;
-  color: blue; }
-
-#primary .site-main article .entry-content a {
-  color: #0987AD; }
+#main .header-title {
+  line-height: 45px; }
 
 .impressum {
   color: #000000; }
@@ -674,5 +705,11 @@ body {
     text-decoration: underline; }
   #datenschutz .title-table {
     font-weight: 900; }
+
+.datenschutz-button a {
+  background: #355D77;
+  color: #ffffff !important;
+  border-radius: 15px;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */

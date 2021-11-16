@@ -14,9 +14,12 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex site-footer justify-content-end p-0">
-                    <hr>
-                <img src="<?php the_field('footer_logo','options');?>" alt="">
+            <div class="col-12 d-flex site-footer">
+                <div class="col-12 d-flex footer-menu p-0 mt-4">
+                    <a href="https://www.bmwi.de/Navigation/DE/Service/Datenschutzerklaerung/datenschutzerklaerung.html">Datenschutz</a>
+                    <span style="margin: 0 10px;">/</span>
+                    <a href="https://www.bmwiregistrierung.de/impressum/">Impressum</a>
+                </div>
             </div><!-- #colophon -->
         </div>
 

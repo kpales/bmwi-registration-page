@@ -1,12 +1,13 @@
 <?php
 /**
- * Created by PhpStorm
- * User: Aleš
- * Date: 17/02/2021
- * Time: 11:30
+ * Template Name: Second homepage
+ *
+ * Registration template with second style homepage with bg picture
+ *
+ * @package understrap
  */
-?>
-<?php get_header(); ?>
+
+get_header(); ?>
 <div class="wrapper" id="page-wrapper">
 
     <div id="content" tabindex="-1">
@@ -27,5 +28,3 @@
 
 
 <?php get_footer(); ?>
-
-

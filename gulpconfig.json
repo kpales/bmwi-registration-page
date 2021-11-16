@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "http://localhost/orca-affairs/",
+    "proxy": "http://localhost/bmwi-registration/",
     "port": 1234,
 	"ui": {
 		"port": 1235

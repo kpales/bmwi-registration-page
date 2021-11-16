@@ -51,6 +51,7 @@ if ( ! function_exists( 'microsite_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'microsite' ),
+                'footer-menu' => esc_html__( 'Footer', 'microsite' ),
 			)
 		);
 

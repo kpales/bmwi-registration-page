@@ -1,12 +1,13 @@
 <?php
 /**
- * Created by PhpStorm
- * User: Aleš
- * Date: 17/02/2021
- * Time: 11:30
+ * Template Name: confirmation email page
+ *
+ * Registration template with second style confirmation email with bg picture
+ *
+ * @package understrap
  */
-?>
-<?php get_header(); ?>
+
+get_header(); ?>
 <div class="wrapper" id="page-wrapper">
 
     <div id="content" tabindex="-1">
@@ -27,5 +28,3 @@
 
 
 <?php get_footer(); ?>
-
-

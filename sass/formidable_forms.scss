@@ -2,38 +2,96 @@
 //Formidable forms modifications
 // Aleš
 
-#frm_form_4_container{
-  --font:BundessansRegular;
+#frm_form_2_container{
+  #frm_field_6_container,#frm_field_8_container,#frm_field_14_container,#frm_field_11_container,#frm_field_15_container{
+    label,select,input{
+      background-color: #CCDBE4;
+      margin-bottom: 10px;
+    }
+    label{
+      margin-right: -5px;
+    }
+    input{
+      color: black;
+    }
+
+  }
+  #frm_field_17_container{
+    margin-top:0;
+  }
   .frm_form_field{
-    h1{
+    margin-bottom: 0;
+    display: flex;
+
+    select , input{
+      background-color:transparent;
+      outline: transparent;
+      border-color: transparent;
+      box-shadow: none;
+      width: 50%;
+    }
+    #field_x5gxl_label{
+      width: 100% !important;
+    }
+
+    label{
       color:#000000;
       font-size: 16px;
-      font-weight: 900;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      line-height: 40px;
+      padding-left: 10px;
       text-align: left;
-    }
-  }
-  .vertical_radio{
-    .frm_primary_label{
-    display: none;
+      width: 240px;
     }
   }
   .frm_html_container{
-    color: black;
-    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+    h1{
+      color:#004B76;
+      font-weight: 900;
+    }
+  }
+  .frm_first{
+    margin-bottom: 0;
+    /*margin-top: 50px;*/
+  }
+  .frm_form_field{
 
+    .frm_description{
+      color:#000000;
+      margin-top: 5px;
+    }
+    #field_x5gxl{
+      display: none;
+    }
+    #field_x5gxl_label{
+      a{
+        color:white;
+        text-decoration: underline;
+        &:hover{
+          color:white;
+
+        }
+      }
+    }
+    #field_87z5i_label{
+      display: none;
+    }
+  }
+  #frm_field_13_container{
+    margin-bottom: 0;
   }
   .frm_submit{
-    text-align: center;
+    text-align: left;
     .frm_final_submit{
       width: 150px;
       text-align: center;
-      background-color:#0987AD;
+      background-color:#355D77;
+      border-color: #355D77;
+      color:white;
+      box-shadow: none;
       &:hover,&:visited{
-        background: #0987AD;
-        border-color: #0987AD;
+        background: #355D77;
+        border-color: #355D77;
         color:white;
         transition: 0.5s;
       }

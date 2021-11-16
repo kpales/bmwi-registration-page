@@ -6,7 +6,9 @@
   src: url("../fonts/BundesSans/BundesSans-Regular.otf") format("opentype");
 }
 
-
+.container{
+  max-width:1000px !important;
+}
 body{
   background-color:#ffffff;
   font-family:BundessansRegular !important;
@@ -61,23 +63,12 @@ body{
     display: none;
   }
 }
-#primary{
-  .site-main{
-    article{
-      .entry-title{
-        font-weight: 900;
-        color:blue;
-      }
-      .entry-content{
-        a{
-          color:#0987AD;
-
-        }
-      }
-    }
-
+#main{
+  .header-title{
+    line-height: 45px;
   }
 }
+
 
 //Impressum page
 .impressum{
@@ -107,6 +98,14 @@ body{
   }
   .title-table{
     font-weight: 900;
+  }
+}
+.datenschutz-button{
+  a{
+    background: #355D77;
+    color: #ffffff !important;
+    border-radius: 15px;
+    margin-top: 50px;
   }
 }
 

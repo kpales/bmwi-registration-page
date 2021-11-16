@@ -25,28 +25,10 @@
 <div id="page" class="site">
 
 	<div id="wrapper-header" class="site-header d-flex flex-row">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-6 col-md-6">
-                    <div class="logo">
-                        <?php
-                        the_custom_logo();
-                        ?>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-center justify-content-end">
-                    <div class="d-flex flex-row flex-md-column align-items-end">
-                        <nav id="site-navigation" class="main-navigation">
-                            <?php
-                            wp_nav_menu(
-                                array(
-                                    'theme_location' => 'menu-1',
-                                    'menu_id'        => 'primary-menu',
-                                )
-                            );
-                            ?>
-                        </nav><!-- #site-navigation -->
-                    </div>
+                <div class="col-12 d-flex header-logo">
+                    <img src="<?php the_field('left-logo')?>" alt="">
                 </div>
             </div>
         </div>

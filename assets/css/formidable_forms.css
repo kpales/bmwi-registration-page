@@ -1,28 +1,77 @@
-#frm_form_4_container {
-  --font:BundessansRegular; }
-  #frm_form_4_container .frm_form_field h1 {
+#frm_form_2_container #frm_field_6_container label, #frm_form_2_container #frm_field_6_container select, #frm_form_2_container #frm_field_6_container input, #frm_form_2_container #frm_field_8_container label, #frm_form_2_container #frm_field_8_container select, #frm_form_2_container #frm_field_8_container input, #frm_form_2_container #frm_field_14_container label, #frm_form_2_container #frm_field_14_container select, #frm_form_2_container #frm_field_14_container input, #frm_form_2_container #frm_field_11_container label, #frm_form_2_container #frm_field_11_container select, #frm_form_2_container #frm_field_11_container input, #frm_form_2_container #frm_field_15_container label, #frm_form_2_container #frm_field_15_container select, #frm_form_2_container #frm_field_15_container input {
+  background-color: #CCDBE4;
+  margin-bottom: 10px; }
+
+#frm_form_2_container #frm_field_6_container label, #frm_form_2_container #frm_field_8_container label, #frm_form_2_container #frm_field_14_container label, #frm_form_2_container #frm_field_11_container label, #frm_form_2_container #frm_field_15_container label {
+  margin-right: -5px; }
+
+#frm_form_2_container #frm_field_6_container input, #frm_form_2_container #frm_field_8_container input, #frm_form_2_container #frm_field_14_container input, #frm_form_2_container #frm_field_11_container input, #frm_form_2_container #frm_field_15_container input {
+  color: black; }
+
+#frm_form_2_container #frm_field_17_container {
+  margin-top: 0; }
+
+#frm_form_2_container .frm_form_field {
+  margin-bottom: 0;
+  display: flex; }
+  #frm_form_2_container .frm_form_field select, #frm_form_2_container .frm_form_field input {
+    background-color: transparent;
+    outline: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    width: 50%; }
+  #frm_form_2_container .frm_form_field #field_x5gxl_label {
+    width: 100% !important; }
+  #frm_form_2_container .frm_form_field label {
     color: #000000;
     font-size: 16px;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 40px;
-    text-align: left; }
-  #frm_form_4_container .vertical_radio .frm_primary_label {
-    display: none; }
-  #frm_form_4_container .frm_html_container {
-    color: black;
-    text-align: center; }
-  #frm_form_4_container .frm_submit {
-    text-align: center; }
-    #frm_form_4_container .frm_submit .frm_final_submit {
-      width: 150px;
-      text-align: center;
-      background-color: #0987AD; }
-      #frm_form_4_container .frm_submit .frm_final_submit:hover, #frm_form_4_container .frm_submit .frm_final_submit:visited {
-        background: #0987AD;
-        border-color: #0987AD;
-        color: white;
-        transition: 0.5s; }
+    padding-left: 10px;
+    text-align: left;
+    width: 240px; }
+
+#frm_form_2_container .frm_html_container {
+  margin-bottom: 0;
+  margin-top: 50px; }
+  #frm_form_2_container .frm_html_container h1 {
+    color: #004B76;
+    font-weight: 900; }
+
+#frm_form_2_container .frm_first {
+  margin-bottom: 0;
+  /*margin-top: 50px;*/ }
+
+#frm_form_2_container .frm_form_field .frm_description {
+  color: #000000;
+  margin-top: 5px; }
+
+#frm_form_2_container .frm_form_field #field_x5gxl {
+  display: none; }
+
+#frm_form_2_container .frm_form_field #field_x5gxl_label a {
+  color: white;
+  text-decoration: underline; }
+  #frm_form_2_container .frm_form_field #field_x5gxl_label a:hover {
+    color: white; }
+
+#frm_form_2_container .frm_form_field #field_87z5i_label {
+  display: none; }
+
+#frm_form_2_container #frm_field_13_container {
+  margin-bottom: 0; }
+
+#frm_form_2_container .frm_submit {
+  text-align: left; }
+  #frm_form_2_container .frm_submit .frm_final_submit {
+    width: 150px;
+    text-align: center;
+    background-color: #355D77;
+    border-color: #355D77;
+    color: white;
+    box-shadow: none; }
+    #frm_form_2_container .frm_submit .frm_final_submit:hover, #frm_form_2_container .frm_submit .frm_final_submit:visited {
+      background: #355D77;
+      border-color: #355D77;
+      color: white;
+      transition: 0.5s; }
 
 /*# sourceMappingURL=formidable_forms.css.map */
